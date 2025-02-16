@@ -65,7 +65,7 @@ class MyBox
 		BoxWeight bw = new BoxWeight(10,20,30,40);
 
 		double volume = b1.volume();
-		System.out.println("Volume of b1 = " + volume);
+		System.out.println("Volume of b1 = " + volume	);
 		System.out.println("Volume of b2 = " + b2.volume());
 
 		System.out.println("Volume of bw = " + bw.volume());
