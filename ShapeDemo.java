@@ -31,6 +31,59 @@ abstract class Shape
 
 class Rectanlge extends Shape
 {
+	Rectangle(int side1,int side2)
+	{
+		super(side1,side2);
+	}
+
+	void area()
+	{
+		int area = getSide1() * getSide2();
+		System.out.println("Area of rectangle = "  + area ");
+	}
+
+	void perimeter()
+	{
+		int peri = 2 * (getSide1() + getSide2());
+		System.out.println("Perimeter of rectangle  = " + peri);
+	}
+}
+
+class Square extends Shape
+{
+	Square(int side)
+	{
+		super(side,side);
+	}
+
+	void area()
+	{
+		int area = getSide1() * getSide2();
+		System.out.println("Area of square = " + area);
+	}
+
+	void perimeter()
+	{
+		int peri = 4 * getSide1();
+		System.out.println("Perimeter of square = " + peri);
+	}
+}
+
+
+class ShapeDemo
+{
+	public static void main()
+	{
+		Shape s;
+
+		s = new Rectangle(10,20);
+		s.area();
+		s.perimeter();
+
+		s = new Square(10);
+		s.area();
+		s.perimeter();
+	}
 }
 
 
