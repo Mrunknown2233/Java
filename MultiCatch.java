@@ -2,6 +2,7 @@ class MultiCatch
 {
 	public static void main( String args[])
 	{
+		
 		try
 		{
 			int a = 42;
