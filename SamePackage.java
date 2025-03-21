@@ -1,5 +1,5 @@
 package p1;
-public class SamePackage 
+ class SamePackage 
 {
     SamePackage()
     {

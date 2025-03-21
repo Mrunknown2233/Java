@@ -1,5 +1,7 @@
 package mypack;
 
+//package pack1[.pack2[.pack3]]
+
 public class PackageSample 
 {
     public void display()
