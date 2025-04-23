@@ -6,6 +6,7 @@ public class Protection
     protected int pro_n = 3;
     public int pub_n = 4;
 
+
     public Protection()
     {
         System.out.println("Inside Protection");
