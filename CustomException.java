@@ -1,6 +1,6 @@
 import java.io.*;
 class NegativeAgeException extends Exception
-{
+
     NegativeAgeException(String msg)
     {
         super(msg);
